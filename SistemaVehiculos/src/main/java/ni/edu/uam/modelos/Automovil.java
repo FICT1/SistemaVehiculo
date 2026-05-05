@@ -24,9 +24,18 @@ public class Automovil extends Vehiculo {
         return sb;
     }
 
-    public int getNumeroPuertas() { return numeroPuertas; }
-    public void setNumeroPuertas(int numeroPuertas) { this.numeroPuertas = numeroPuertas; }
+    public int getNumeroPuertas() {
+        return numeroPuertas;
+    }
 
-    public String getTipoCombustible() { return tipoCombustible; }
-    public void setTipoCombustible(String tipoCombustible) { this.tipoCombustible = tipoCombustible; }
+    public void setNumeroPuertas(int numeroPuertas) {
+        this.numeroPuertas = numeroPuertas;
+    }
+
+    public String getTipoCombustible() {
+        return tipoCombustible;
+    }
+    public void setTipoCombustible(String tipoCombustible) {
+        this.tipoCombustible = tipoCombustible;
+    }
 }
